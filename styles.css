@@ -1,0 +1,26 @@
+.header-style {
+	color:blue;
+}
+.ul-style {
+	display: flex;
+}
+.nav-list {
+	list-style-type: none;
+	padding: 0px 20px;
+	font-style: sans-serif;
+}
+section {
+	display:flex;
+}
+.left-rail {
+	flex: 1;
+}
+.right-rail {
+	flex:1;
+}
+.main-stuff {
+flex: 3;
+}
+.left-list{
+	
+}
