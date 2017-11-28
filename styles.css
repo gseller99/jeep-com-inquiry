@@ -1,26 +1,45 @@
 .header-style {
-	color:blue;
+    color: blue;
+    height: 30px;
 }
+
 .ul-style {
-	display: flex;
+    display: flex;
 }
+
 .nav-list {
-	list-style-type: none;
-	padding: 0px 20px;
-	font-style: sans-serif;
+    list-style-type: none;
+    padding: 0px 20px;
+    font-style: sans-serif;
+    background-color: yellow;
 }
+
 section {
-	display:flex;
+    display: flex;
 }
+
 .left-rail {
-	flex: 1;
+    flex: 1;
 }
+
 .right-rail {
-	flex:1;
+    flex: 1;
 }
+
 .main-stuff {
-flex: 3;
+    flex: 3;
 }
-.left-list{
-	
+
+.left-list a:hover {
+color: green;
+}
+
+.nav-list a:hover {
+    color:orange;
+}
+.right-list a:hover {
+	color:red;
+}
+.footer {
+	text-align:center;
 }
